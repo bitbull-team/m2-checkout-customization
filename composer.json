@@ -1,0 +1,22 @@
+{
+    "name": "bitbull-team/m2-checkout-customization",
+    "license": "OSL-3.0",
+    "type": "magento2-module",
+    "description": "sample code on how to customize magento 2.0.7 checkout",
+    "require": {
+    },
+    "authors":[
+        {
+            "name":"Andra Lungu",
+            "email":"andra.lungu@bitbull.it"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Bitbull\\CustomCheckout\\": ""
+        }
+    }
+}
